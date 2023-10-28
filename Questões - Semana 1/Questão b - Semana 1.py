@@ -1,4 +1,5 @@
 import numpy as np
+import math
 
 somatorio = 0
 n = 2

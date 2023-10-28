@@ -5,7 +5,7 @@ rodadas = 5
 lista_1 = ['pedra', 'papel', 'tesoura']
 vitoria_usuario = 0
 vitoria_pc = 0
-
+print('--------------------Bem-vindo ao jogo--------------------')
 while vitoria_usuario < rodadas and vitoria_pc < rodadas:
     usuario = input('Escolha uma opção, pedra, papel ou tesoura:')
     pc = random.choice(lista_1)
@@ -26,4 +26,3 @@ if vitoria_usuario == rodadas:
 else:
     print(f'Infelizmente, você perdeu. Não se preocupe, você já é um vencedor por existir!')
 print('------------------------------------------------------')
-    
