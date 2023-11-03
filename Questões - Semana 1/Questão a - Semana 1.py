@@ -26,3 +26,4 @@ if vitoria_usuario == rodadas:
 else:
     print(f'Infelizmente, você perdeu. Não se preocupe, você já é um vencedor por existir!')
 print('------------------------------------------------------')
+
